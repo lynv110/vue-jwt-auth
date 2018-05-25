@@ -14,9 +14,11 @@
         "cross-env": "^5.1",
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
-        "vue": "^2.5.7"
+        "vue": "^2.5.7",
+        "vue-axios": "^2.1.1"
     },
     "dependencies": {
+        "@websanova/vue-auth": "^2.21.11-beta",
         "vue-router": "^3.0.1",
         "vuetify": "^1.0.18"
     }

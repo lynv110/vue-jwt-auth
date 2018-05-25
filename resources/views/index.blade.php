@@ -12,10 +12,8 @@
 </head>
 <body>
 <div class="container">
-    <div id="app">
-        <h1>Test Demo</h1>
-        <router-view></router-view>
-    </div>
+    <h1>Test Demo</h1>
+    <div id="app"></div>
 </div>
 </body>
 <script src="{{ asset('js/app.js') }}"></script>

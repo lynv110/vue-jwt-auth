@@ -3,7 +3,7 @@
         <div class="alert alert-danger" v-if="error">
             <p>There was an error, unable to sign in with google account.</p>
         </div>
-        <router-link :to="{name: 'auth.login'}">Login with google</router-link>
+        Register page
     </div>
 </template>
 

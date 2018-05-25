@@ -1,22 +1,14 @@
 <template>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <nav>
-                <ul class="list-inline">
-                    <li>
-                        <router-link :class="primary" :to="{name: 'common.dashboard'}">Dashboard</router-link>
-                    </li>
-                    <li>
-                        <router-link :class="primary" primary :to="{name : 'user.info'}">See info</router-link>
-                    </li>
-                    <li>
-                        <router-link :class="primary" primary :to="{name : 'auth.login'}">Login</router-link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="panel-body">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Dashboard page</div>
+                    <div class="panel-body">
+                        Dashboard page
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -24,7 +16,7 @@
 <script>
     export default {
         mounted() {
-            console.log('Component 1 mounted.')
+            console.log('Component mounted.')
         }
     }
 </script>
